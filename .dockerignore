@@ -1,0 +1,27 @@
+# Ignore node_modules directory
+node_modules
+
+# Ignore development files and directories
+*.log
+*.pid
+*.lock
+
+# Ignore build and temporary files
+build/
+tmp/
+
+# Ignore test files and directories
+__tests__/
+test/
+
+# Ignore Docker specific files
+Dockerfile
+.dockerignore
+
+# Ignore version control files
+.git/
+.gitignore
+
+# Ignore npm cache and temporary files
+.npm
+.npmrc
